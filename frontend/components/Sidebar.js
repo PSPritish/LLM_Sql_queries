@@ -64,7 +64,7 @@ const Sidebar = () => {
     <motion.aside
       initial={{ x: -300, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
-      className={`bg-base-100 border-r border-base-200 h-full flex flex-col transition-all duration-300 ${isCollapsed ? 'w-16' : 'w-80'
+      className={`bg-base-100 border-r border-base-200 flex flex-col transition-all duration-300 ${isCollapsed ? 'w-16' : 'w-80'
         }`}
     >
       {/* Sidebar Header */}
@@ -89,10 +89,10 @@ const Sidebar = () => {
                 key={index}
                 onClick={item.action || (() => { })}
                 className={`btn w-full justify-start gap-3 ${item.active
-                    ? 'btn-primary'
-                    : item.disabled
-                      ? 'btn-disabled'
-                      : 'btn-ghost hover:bg-base-200'
+                  ? 'btn-primary'
+                  : item.disabled
+                    ? 'btn-disabled'
+                    : 'btn-ghost hover:bg-base-200'
                   }`}
                 whileHover={{ scale: item.disabled ? 1 : 1.02 }}
                 whileTap={{ scale: item.disabled ? 1 : 0.98 }}
@@ -137,7 +137,7 @@ const Sidebar = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <div className={`badge badge-sm ${analysis.score >= 90 ? 'badge-success' :
-                          analysis.score >= 70 ? 'badge-warning' : 'badge-error'
+                        analysis.score >= 70 ? 'badge-warning' : 'badge-error'
                         }`}>
                         {analysis.score}%
                       </div>

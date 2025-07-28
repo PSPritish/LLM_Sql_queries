@@ -31,16 +31,19 @@ const Header = () => {
       </div>
 
       <div className="navbar-center hidden lg:flex">
-        <div className="tabs tabs-boxed bg-base-200">
+        <div role="tablist" className="tabs tabs-border tabs-l">
           <a className="tab tab-active gap-2">
-            <FiFileText className="text-sm" />
+            <FiFileText />
             CV Analysis
           </a>
         </div>
       </div>
 
       <div className="navbar-end">
-        <div className="flex items-center gap-2">
+        <button className="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block h-5 w-5 stroke-current"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path> </svg>
+        </button>
+        {/* <div className="flex items-center gap-2">
           <motion.button
             className="btn btn-ghost btn-circle"
             whileHover={{ scale: 1.1 }}
@@ -61,7 +64,7 @@ const Header = () => {
               <li><a className="gap-3"><FiLogOut /> Logout</a></li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </motion.header>
   );
