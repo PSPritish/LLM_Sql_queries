@@ -5,7 +5,6 @@ import CVUpload from '../components/CVUpload';
 import Analysis from '../components/Analysis';
 import Results from '../components/Results';
 import InterviewQuestions from '../components/InterviewQuestions';
-import ChatMessages from '../components/ChatMessages';
 import useStore from '../store/useStore';
 
 export default function Home() {

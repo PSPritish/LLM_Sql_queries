@@ -1,7 +1,6 @@
 import { create } from 'zustand';
 
 const useStore = create((set, get) => ({
-  // CV Analysis State
   uploadedCV: null,
   analysisResults: null,
   isAnalyzing: false,
