@@ -2,21 +2,36 @@
 
 A modern, ChatGPT-like frontend for CV analysis and optimization powered by AI. This application helps job seekers improve their CVs through ATS scoring, keyword analysis, and personalized interview question generation.
 
+## 🔒 Privacy & Security First
+
+**Your data stays with you.** CV Grinder processes all your personal information locally in your browser:
+
+- ✅ **No Server Storage**: CV content never leaves your browser
+- ✅ **Temporary Sessions**: All data cleared when browser session ends
+- ✅ **Local Processing**: Analysis happens entirely on your device
+- ✅ **No Tracking**: No personal information collected or stored
+- ✅ **Session-based**: Each session is isolated and temporary
+
+All CV analysis and chat history is stored temporarily in your browser's session storage and automatically deleted when you close the tab.
+
 ## 🌟 Features
 
 ### Phase 1 Implementation (Current)
 
 - **Modern ChatGPT-like Interface**: Interactive chat interface for CV analysis queries
-- **CV Upload & Parsing**: Drag-and-drop or click-to-upload CV files (PDF, DOC, DOCX)
+- **Privacy-Focused CV Upload**: Secure, local-only file processing (PDF, DOC, DOCX)
 - **ATS Scoring Engine**: Real-time compatibility scoring with Applicant Tracking Systems
 - **Keyword Analysis**: Role-specific keyword matching and optimization suggestions
 - **CV Improvement Suggestions**: AI-powered recommendations for better CV performance
 - **Interview Question Generation**: Personalized, context-aware interview questions
+- **Session Management**: Temporary, browser-only data storage with clear controls
 - **Beautiful UI/UX**: Modern design with smooth animations and responsive layout
 
 ### Technical Features
 
 - **Real-time Chat Interface**: ChatGPT-style interaction for CV assistance
+- **Privacy Controls**: Clear data controls and privacy indicators
+- **Session Tracking**: Local session management with duration tracking
 - **Suggested Prompts**: Quick-start questions for common CV optimization needs
 - **Progressive Analysis**: Step-by-step analysis visualization
 - **Interactive Results**: Tabbed interface for overview, keywords, and suggestions
